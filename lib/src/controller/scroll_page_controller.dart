@@ -50,7 +50,6 @@ class ScrollPageController extends GetxController {
       update();
     }
   }
-
   void _firstLoad() async {
     isFirstRunningLoading = true;
     update();
@@ -76,3 +75,23 @@ class ScrollPageController extends GetxController {
     controller = ScrollController()..addListener(loadMore);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
